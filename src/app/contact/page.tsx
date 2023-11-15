@@ -1,10 +1,10 @@
-import Header from "./components/Header";
+import Header from "../components/Header";
 
 const page = () => {
 	return (
 		<>
 			<Header />
-			<div>Home page</div>
+			<div>Contact page</div>
 		</>
 	);
 };
