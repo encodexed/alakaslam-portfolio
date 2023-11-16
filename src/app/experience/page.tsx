@@ -1,15 +1,15 @@
 import Header from "../components/Header";
 import ContentWrapper from "../containers/ContentWrapper";
 
-const CVPage = () => {
+const ExperiencePage = () => {
 	return (
 		<>
 			<Header />
 			<ContentWrapper>
-				<div>CV</div>
+				<div>Experience page</div>
 			</ContentWrapper>
 		</>
 	);
 };
 
-export default CVPage;
+export default ExperiencePage;

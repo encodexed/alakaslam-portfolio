@@ -26,13 +26,13 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link className={navLinksStyle} href='/CV'>
-							CV
+						<Link className={navLinksStyle} href='/projects'>
+							Projects
 						</Link>
 					</li>
 					<li>
-						<Link className={navLinksStyle} href='/projects'>
-							Projects
+						<Link className={navLinksStyle} href='/experience'>
+							Experience
 						</Link>
 					</li>
 					<li>
