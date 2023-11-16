@@ -1,10 +1,13 @@
 import Header from "./components/Header";
+import ContentWrapper from "./containers/ContentWrapper";
 
 const page = () => {
 	return (
 		<>
 			<Header />
-			<div>Home page</div>
+			<ContentWrapper>
+				<div>Home page</div>
+			</ContentWrapper>
 		</>
 	);
 };

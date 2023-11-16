@@ -1,12 +1,15 @@
 import Header from "../components/Header";
+import ContentWrapper from "../containers/ContentWrapper";
 
-const page = () => {
+const ContactPage = () => {
 	return (
 		<>
 			<Header />
-			<div>Contact page</div>
+			<ContentWrapper>
+				<div>Contact page</div>
+			</ContentWrapper>
 		</>
 	);
 };
 
-export default page;
+export default ContactPage;
