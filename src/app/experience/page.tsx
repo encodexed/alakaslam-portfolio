@@ -1,3 +1,6 @@
+"use client";
+
+import CustomisedTimeline from "../components/CustomisedTimeline";
 import Header from "../components/Header";
 import ContentWrapper from "../containers/ContentWrapper";
 
@@ -6,7 +9,9 @@ const ExperiencePage = () => {
 		<>
 			<Header />
 			<ContentWrapper>
-				<div>Experience page</div>
+				<section className='text-brand-body'>
+					<CustomisedTimeline />
+				</section>
 			</ContentWrapper>
 		</>
 	);

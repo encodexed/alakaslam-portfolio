@@ -1,14 +1,19 @@
 import Timeline from "@mui/lab/Timeline";
 import TimelineEvents from "../../../../public/data/timeline-events.json";
 import TimelineDataItem from "../TimelineDataItem";
-import { TimelineDotPropsColorOverrides } from "@mui/lab";
+import {
+	TimelineConnector,
+	TimelineDot,
+	TimelineItem,
+	TimelineSeparator,
+} from "@mui/lab";
 
 export interface EventData {
 	id: number;
-	iconFile: string;
 	date: string;
 	title: string;
 	body: string;
+	dotType: string;
 	link?: string;
 }
 

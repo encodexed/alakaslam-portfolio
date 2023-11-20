@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import ContentWrapper from "./containers/ContentWrapper";
 import RobsAndPip from "../../public/images/robs-n-pip-square.png";
 import CircleImage from "./components/CircleImage";
-import CustomisedTimeline from "./components/CustomisedTimeline";
 
 const page = () => {
 	return (
@@ -48,9 +47,6 @@ const page = () => {
 								play with my birds or have a hit of tennis.
 							</p>
 						</div>
-					</section>
-					<section className='text-brand-body'>
-						<CustomisedTimeline />
 					</section>
 					<section></section>
 				</main>

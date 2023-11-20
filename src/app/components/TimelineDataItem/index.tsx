@@ -10,21 +10,18 @@ import { EventData } from "../CustomisedTimeline";
 import Link from "next/link";
 
 const TimelineDataItem = ({ data }: { data: EventData }) => {
-	const { id, date, title, body, link } = data;
+	const { id, date, title, body, link, dotType } = data;
 
 	const colorClass = "text-spectrum-" + (id % 8);
 
-	// Don't delete this comment :)
-	// className = 'text-spectrum-0 text-spectrum-1 text-spectrum-2 text-spectrum-3 text-spectrum-4 text-spectrum-5 text-spectrum-6 text-spectrum-7';
-
 	return (
 		<TimelineItem sx={{ fontSize: 8, fontWeight: "bold" }}>
-			<TimelineOppositeContent sx={{ m: "auto 0" }}>
+			<TimelineOppositeContent sx={{ m: "4px 0" }}>
 				<p className={`${colorClass} + text-sm`}>{date}</p>
 			</TimelineOppositeContent>
 			<TimelineSeparator>
-				<TimelineConnector />
-				<TimelineDot />
+				{dotType === "filled" && <TimelineDot />}
+				{dotType === "outlined" && <TimelineDot variant='outlined' />}
 				<TimelineConnector />
 			</TimelineSeparator>
 			<TimelineContent>
@@ -44,3 +41,6 @@ const TimelineDataItem = ({ data }: { data: EventData }) => {
 };
 
 export default TimelineDataItem;
+
+// Don't delete this comment :)
+// className = 'text-spectrum-0 text-spectrum-1 text-spectrum-2 text-spectrum-3 text-spectrum-4 text-spectrum-5 text-spectrum-6 text-spectrum-7';
