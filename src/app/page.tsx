@@ -1,7 +1,10 @@
+"use client";
+
 import Header from "./components/Header";
 import ContentWrapper from "./containers/ContentWrapper";
 import RobsAndPip from "../../public/images/robs-n-pip-square.png";
 import CircleImage from "./components/CircleImage";
+import CustomisedTimeline from "./components/CustomisedTimeline";
 
 const page = () => {
 	return (
@@ -35,18 +38,20 @@ const page = () => {
 
 							<p>That was before I discovered programming.</p>
 							<p>
-								I fell instantly in love with Javascript and have been learning
+								I fell instantly in love with JavaScript and have been learning
 								a variety of different technologies for the web ever since 2022.
 								I love how creative I can be with code and the remarkable places
 								it can take us.{" "}
 							</p>
 							<p>
-								In my free time, I like to play games on my computer, play with
-								my birds or have a hit of tennis.
+								When I&apos;m not coding, I like to play games on my computer,
+								play with my birds or have a hit of tennis.
 							</p>
 						</div>
 					</section>
-					<section></section>
+					<section className='text-brand-body'>
+						<CustomisedTimeline />
+					</section>
 					<section></section>
 				</main>
 			</ContentWrapper>

@@ -12,8 +12,8 @@ const Navbar = () => {
 					<Image
 						src={AlakaslamLogo}
 						alt='Alakaslam logo'
-						width={36}
-						height={36}
+						width={48}
+						height={48}
 					/>
 					<p className='font-bold m-0 ml-2'>Robbie Gollan</p>
 				</div>
