@@ -13,8 +13,12 @@ import { FileOpen, OpenInNew, RocketLaunch, Source } from "@mui/icons-material";
 const TimelineDataItem = ({ data }: { data: EventData }) => {
 	const { id, date, title, body, github, live, dotType } = data;
 
-	const colorClass = "text-spectrum-" + (id % 8);
-	const linkClass = colorClass + " underline";
+	const colorId = id % 8;
+	const baseClass = "text-spectrum-";
+	const colorClass = baseClass + colorId;
+
+	const linkColorId = (id + 4) % 8;
+	const linkClass = baseClass + linkColorId;
 
 	return (
 		<TimelineItem>
