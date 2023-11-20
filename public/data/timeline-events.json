@@ -19,7 +19,7 @@
 			"date": "Oct, '24",
 			"title": "Completed assignment #6 - Java Minesweeper",
 			"body": "Our final solo project for the course, we had learnt a little bit of Java by this point and were tasked with recreating the classic game of Minesweeper in a Java CLI app. I also really enjoyed this project as I was able to revisit Java from years ago and work with game logic.",
-			"link": "https://github.com/encodexed/minesweeper",
+			"github": "https://github.com/encodexed/minesweeper",
 			"dotType": "filled"
 		},
 		{
@@ -27,7 +27,7 @@
 			"date": "Oct, '24",
 			"title": "Completed assignment #5 - React eCommerce Project",
 			"body": "Just passing the halfway mark, we were now interacting with our own pseudo-backend, a hosted NoSQL document database Google Firestore. I was pretty happy with the way this project turned out visually, as I chose video games as my product of choice for sale.",
-			"link": "https://github.com/encodexed/eShop",
+			"github": "https://github.com/encodexed/eShop",
 			"dotType": "filled"
 		},
 		{
@@ -35,7 +35,7 @@
 			"date": "Oct, '24",
 			"title": "Completed assignment #4 - Google Books Search",
 			"body": "By now, we had covered some React and were also making use of the fetch API from JavaScript to interact with some foreign APIs. This was approximately five weeks into the course. The workload alongside these projects was also hectic.",
-			"link": "https://github.com/encodexed/google-books",
+			"github": "https://github.com/encodexed/google-books",
 			"dotType": "filled"
 		},
 		{
@@ -43,7 +43,7 @@
 			"date": "Sep, '23",
 			"title": "Completed assignment #3 - Morse Code Translator",
 			"body": "Our third project for the course, we extended our practice of JavaScript and the DOM, but were now also using Jest to write some tests for our functions.",
-			"link": "https://github.com/encodexed/morse-code-translator",
+			"github": "https://github.com/encodexed/morse-code-translator",
 			"dotType": "filled"
 		},
 		{
@@ -51,7 +51,7 @@
 			"date": "Sep, '23",
 			"title": "Completed assignment #2 - FakeOS",
 			"body": "Having learnt a bit more about JavaScript and the DOM, we were tasked with recreating the look of an Operating System desktop/home screen. I chose to recreate an early Mac OS X setting.",
-			"link": "https://github.com/encodexed/fakeOS",
+			"github": "https://github.com/encodexed/fakeOS",
 			"dotType": "filled"
 		},
 		{
@@ -73,7 +73,8 @@
 			"date": "Apr '23",
 			"title": "My first React project - ESO Alchemy Assistant",
 			"body": "Having finished the previously mentioned React course a month before, I decided to create a front-end app to practice what I had learnt. I created the Elder Scrolls Online Alchemy Assistant. Looking back on it today, it definitely could use a bit of work, but I was very happy to have created something that worked well and helped me as a tool. The tech stack used was JavaScript, TailwindCSS, and ReactJS.",
-			"link": "https://github.com/encodexed/elder-scrolls-alchemy",
+			"github": "https://github.com/encodexed/elder-scrolls-alchemy",
+			"live": "https://alakaslam.io",
 			"dotType": "filled"
 		},
 		{
@@ -88,7 +89,7 @@
 			"date": "Dec '22",
 			"title": "My first full-stack project - the ISM website",
 			"body": "Feeling great about having completed my course, I was eager to get out and build my own projects. I had told my employer that I was studying web development and she asked if I would like to try and rebuild her business website. I was given access to the WordPress and much to my dismay, I felt at the time that I had very little power to properly apply my coding skills. The database being used was also a MS Access file so things were going to be difficult, if not impossible, to integrate. I convinced her to build from scratch with more of an online database, and things were going not too bad, but actual music work became much more critical for both of us so the project was halted indefinitely. The tech stack used in the end was MongoDB, Express and Embedded JavaScript.",
-			"link": "https://github.com/encodexed/ISM",
+			"github": "https://github.com/encodexed/ISM",
 			"dotType": "filled"
 		},
 		{

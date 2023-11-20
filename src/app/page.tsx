@@ -48,7 +48,6 @@ const page = () => {
 							</p>
 						</div>
 					</section>
-					<section></section>
 				</main>
 			</ContentWrapper>
 		</>

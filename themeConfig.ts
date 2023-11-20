@@ -10,6 +10,7 @@ const themeConfig: Partial<ThemeConfig> = {
 				accent: "#d90429",
 				lightBackground: "#8d99ae",
 				background: "#151721",
+				sub: "#d7dbdd",
 			},
 			spectrum: {
 				1: "#ffadad",

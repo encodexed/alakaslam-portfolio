@@ -8,14 +8,16 @@ import {
 } from "@mui/lab";
 import { EventData } from "../CustomisedTimeline";
 import Link from "next/link";
+import { FileOpen, OpenInNew, RocketLaunch, Source } from "@mui/icons-material";
 
 const TimelineDataItem = ({ data }: { data: EventData }) => {
-	const { id, date, title, body, link, dotType } = data;
+	const { id, date, title, body, github, live, dotType } = data;
 
 	const colorClass = "text-spectrum-" + (id % 8);
+	const linkClass = colorClass + " underline";
 
 	return (
-		<TimelineItem sx={{ fontSize: 8, fontWeight: "bold" }}>
+		<TimelineItem>
 			<TimelineOppositeContent sx={{ m: "4px 0" }}>
 				<p className={`${colorClass} + text-sm`}>{date}</p>
 			</TimelineOppositeContent>
@@ -25,16 +27,28 @@ const TimelineDataItem = ({ data }: { data: EventData }) => {
 				<TimelineConnector />
 			</TimelineSeparator>
 			<TimelineContent>
-				<h3 className={`${colorClass} + text-lg`}>{title}</h3>
-				{link && (
-					<Link
-						className='text-brand-lightBackground text-sm underline'
-						href={link}
-					>
-						See more...
-					</Link>
-				)}
-				<p className='text-brand-body text-sm'>{body}</p>
+				<h3 className={`${colorClass} + text-lg font-bold`}>{title}</h3>
+				<p className='text-brand-body text-sm mb-2'>{body}</p>
+				<div className='flex items-center justify-start gap-2'>
+					{github && (
+						<Link className='text-white text-sm' href={github}>
+							<Source
+								fontSize='small'
+								sx={{ position: "relative", top: "-2px" }}
+							/>{" "}
+							<span className={linkClass}>Github</span>
+						</Link>
+					)}
+					{live && (
+						<Link className='text-sm' href={live}>
+							<RocketLaunch
+								fontSize='small'
+								sx={{ position: "relative", top: "-2px" }}
+							/>{" "}
+							<span className={linkClass}>Live Site</span>
+						</Link>
+					)}
+				</div>
 			</TimelineContent>
 		</TimelineItem>
 	);

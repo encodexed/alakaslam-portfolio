@@ -1,12 +1,6 @@
 import Timeline from "@mui/lab/Timeline";
 import TimelineEvents from "../../../../public/data/timeline-events.json";
 import TimelineDataItem from "../TimelineDataItem";
-import {
-	TimelineConnector,
-	TimelineDot,
-	TimelineItem,
-	TimelineSeparator,
-} from "@mui/lab";
 
 export interface EventData {
 	id: number;
@@ -14,7 +8,8 @@ export interface EventData {
 	title: string;
 	body: string;
 	dotType: string;
-	link?: string;
+	github?: string;
+	live?: string;
 }
 
 const CustomisedTimeline = () => {
