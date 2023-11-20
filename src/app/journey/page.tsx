@@ -4,7 +4,7 @@ import CustomisedTimeline from "../components/CustomisedTimeline";
 import Header from "../components/Header";
 import ContentWrapper from "../containers/ContentWrapper";
 
-const ExperiencePage = () => {
+const JourneyPage = () => {
 	return (
 		<>
 			<Header />
@@ -26,4 +26,4 @@ const ExperiencePage = () => {
 	);
 };
 
-export default ExperiencePage;
+export default JourneyPage;

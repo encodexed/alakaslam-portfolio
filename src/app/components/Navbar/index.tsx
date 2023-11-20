@@ -31,8 +31,8 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link className={navLinksStyle} href='/experience'>
-							Experience
+						<Link className={navLinksStyle} href='/journey'>
+							Journey
 						</Link>
 					</li>
 					<li>
