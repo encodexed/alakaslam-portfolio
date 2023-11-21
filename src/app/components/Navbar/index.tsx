@@ -3,19 +3,19 @@ import AlakaslamLogo from "../../../../public/images/icon.png";
 import Link from "next/link";
 
 const Navbar = () => {
-	const navLinksStyle = "text-white font-bold cursor-pointer no-underline";
+	const navLinksStyle = "font-bold cursor-pointer no-underline";
 
 	return (
-		<nav className='flex justify-between w-full max-w-6xl mx-20'>
+		<nav className='text-brand-body flex justify-between w-full max-w-6xl mx-20'>
 			<Link href='/'>
 				<div className='flex justify-between items-center'>
 					<Image
 						src={AlakaslamLogo}
 						alt='Alakaslam logo'
-						width={36}
-						height={36}
+						width={48}
+						height={48}
 					/>
-					<p className='text-white font-bold m-0 ml-2'>Robbie Gollan</p>
+					<p className='font-bold m-0 ml-2'>Robbie Gollan</p>
 				</div>
 			</Link>
 			<div className='w-1/2 flex justify-between items-center max-w-sm'>
@@ -31,8 +31,8 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link className={navLinksStyle} href='/experience'>
-							Experience
+						<Link className={navLinksStyle} href='/journey'>
+							Journey
 						</Link>
 					</li>
 					<li>
