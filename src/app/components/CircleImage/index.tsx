@@ -9,10 +9,11 @@ interface Props {
 }
 
 const CircleImage = ({ src, alt, height, width, shadow }: Props) => {
-	const classes = shadow ? "rounded-full shadow" : "rounded-full";
+	const classes = shadow ? "shadow" : "";
 	return (
 		<Image
 			className={classes}
+			style={{ borderRadius: "100%" }}
 			src={src}
 			alt={alt}
 			height={height}

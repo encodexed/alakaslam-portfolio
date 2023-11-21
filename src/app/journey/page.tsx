@@ -9,8 +9,8 @@ const JourneyPage = () => {
 		<>
 			<Header />
 			<ContentWrapper>
-				<section className='text-brand-body text-center max-w-lg mx-auto mb-4'>
-					<h1 className='text-center font-bold text-3xl text-brand-heading mb-2'>
+				<section className='text-brand-body text-center max-w-lg mx-auto mb-4 py-4'>
+					<h1 className='text-center font-bold text-5xl text-brand-heading mb-2'>
 						My Journey
 					</h1>
 					<p className='text-sm text-brand-sub'>
