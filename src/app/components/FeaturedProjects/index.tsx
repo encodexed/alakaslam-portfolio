@@ -1,7 +1,14 @@
 import { ProjectsData } from "@/app/projects/page";
+import FeaturedProject from "../FeaturedProject";
 
 const FeaturedProjects = ({ projects }: { projects: ProjectsData[] }) => {
-	return <article>Featured Projects</article>;
+	return (
+		<>
+			{projects.map((project) => {
+				return <FeaturedProject project={project} key={project.id} />;
+			})}
+		</>
+	);
 };
 
 export default FeaturedProjects;

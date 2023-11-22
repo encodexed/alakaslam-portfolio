@@ -45,8 +45,10 @@ const ProjectsPage = () => {
 		<>
 			<Header />
 			<ContentWrapper>
-				<section className='border border-white text-brand-body'>
-					<h1 className='text-5xl text-brand-heading font-bold'>My Projects</h1>
+				<section className=' text-brand-body'>
+					<h1 className='text-center text-5xl text-brand-heading font-bold py-4'>
+						My Projects
+					</h1>
 					<FeaturedProjects projects={featuredProjects} />
 					<UnfeaturedProjects projects={unfeaturedProjects} />
 				</section>

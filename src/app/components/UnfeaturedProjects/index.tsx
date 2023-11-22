@@ -1,7 +1,13 @@
 import { ProjectsData } from "@/app/projects/page";
 
 const UnfeaturedProjects = ({ projects }: { projects: ProjectsData[] }) => {
-	return <article>Unfeatured Projects</article>;
+	return (
+		<>
+			{projects.map((project) => {
+				return <article key={project.id}></article>;
+			})}
+		</>
+	);
 };
 
 export default UnfeaturedProjects;
