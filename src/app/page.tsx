@@ -26,25 +26,28 @@ import Mongo from "../../public/images/skills-icons/mongodb.svg";
 import MySQL from "../../public/images/skills-icons/mysql.svg";
 import Git from "../../public/images/skills-icons/git.svg";
 import SkillIcon from "./components/SkillIcon";
-import { Button } from "@mui/material";
 
 const page = () => {
 	return (
 		<>
 			<Header />
 			<ContentWrapper>
-				<section className='text-brand-body flex py-2 gap-8'>
-					<div className='flex flex-col w-1/3 gap-4'>
-						<Image src={Me} alt='A picture of me' />
-						<h1 className='text-5xl text-brand-heading font-bold'>
+				<section className='text-brand-body flex flex-col sm:items-start sm:flex-row py-2 gap-8'>
+					<div className='flex flex-col w-full sm:w-1/3 gap-4'>
+						<div className='m-auto w-2/3 sm:w-full'>
+							<Image src={Me} alt='A picture of me' />
+						</div>
+						<h1 className='text-center sm:text-left text-5xl text-brand-heading font-bold'>
 							Hi, I&apos;m Robbie
 						</h1>
-						<h2 className='text-2xl text-brand-sub'>
-							Web Developer. <br />
-							Musician. <br />
-							Bird Dad.
+						<h2 className='text-2xl text-brand-sub w-3/4 m-auto sm:w-full'>
+							<ul className='text-center sm:text-left'>
+								<li>Web Developer.</li>
+								<li>Musician.</li>
+								<li>Bird Dad.</li>
+							</ul>
 						</h2>
-						<ul className='flex flex-col gap-2'>
+						<ul className='flex flex-col gap-2 text-center sm:text-left'>
 							<li className='text-spectrum-2'>
 								<Link href='https://github.com/encodexed'>
 									<span className='text-white'>
@@ -86,7 +89,7 @@ const page = () => {
 						</ul>
 					</div>
 
-					<div className='flex flex-col gap-4 w-2/3'>
+					<div className='flex flex-col gap-4 w-full sm:w-2/3'>
 						<div>
 							<h2 className='text-2xl text-brand-heading mb-4 font-bold'>
 								Skills
