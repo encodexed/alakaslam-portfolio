@@ -6,7 +6,7 @@ const Navbar = () => {
 	const navLinksStyle = "font-bold cursor-pointer no-underline";
 
 	return (
-		<nav className='text-brand-body flex justify-between w-full max-w-6xl mx-2 sm:mx-20'>
+		<nav className='text-brand-body flex justify-between w-full max-w-6xl mx-2 sm:mx-8 md:mx-20'>
 			<Link href='/'>
 				<div className='flex justify-between items-center'>
 					<Image
