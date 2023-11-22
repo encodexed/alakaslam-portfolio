@@ -1,12 +1,13 @@
 import Image from "next/image";
 import AlakaslamLogo from "../../../../public/images/icon.png";
 import Link from "next/link";
+import NavDropdown from "../NavDropdown";
 
 const Navbar = () => {
 	const navLinksStyle = "font-bold cursor-pointer no-underline";
 
 	return (
-		<nav className='text-brand-body flex justify-between w-full max-w-6xl mx-2 sm:mx-8 md:mx-20'>
+		<nav className='text-brand-body flex justify-between w-full max-w-6xl mx-2 sm:mx-8 md:mx-20 flex-grow sm:flex-auto'>
 			<Link href='/'>
 				<div className='flex justify-between items-center'>
 					<Image
@@ -18,8 +19,9 @@ const Navbar = () => {
 					<p className='font-bold m-0 ml-2'>Robbie Gollan</p>
 				</div>
 			</Link>
-			<div className='w-1/2 flex justify-between items-center max-w-sm'>
-				<ul className=' list-none flex w-full justify-between items-center'>
+			<div className='w-fit sm:w-1/2 justify-between items-center max-w-sm flex'>
+				<NavDropdown />
+				<ul className='list-none w-full justify-between items-center hidden sm:flex'>
 					<li>
 						<Link className={navLinksStyle} href='/'>
 							Home

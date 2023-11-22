@@ -47,7 +47,8 @@ const ProjectsPage = () => {
 			<ContentWrapper>
 				<p className='text-xs text-brand-accent text-center'>
 					Site still being built but deployed to give preliminary details of
-					myself and my work. (22nd November, 2023)
+					myself and my work. Best accessed on a computer/tablet. Small screens
+					not fully supported. (23rd November, 2023)
 				</p>
 				<section className=' text-brand-body'>
 					<h1 className='text-center text-5xl text-brand-heading font-bold py-4'>
