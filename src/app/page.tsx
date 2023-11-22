@@ -95,7 +95,7 @@ const page = () => {
 								Skills
 							</h2>
 							<div className='flex'>
-								<div className='flex-1 flex flex-col gap-2'>
+								<div className='flex-1 flex flex-wrap'>
 									<SkillIcon src={HTML} alt='HTML5 icon' text='HTML' />
 									<SkillIcon src={CSS} alt='CSS3 icon' text='CSS' />
 									<SkillIcon src={Sass} alt='Sass icon' text='SCSS/Sass' />
@@ -104,14 +104,10 @@ const page = () => {
 										alt='Tailwind icon'
 										text='TailwindCSS'
 									/>
-								</div>
-								<div className='flex-1 flex flex-col gap-2'>
 									<SkillIcon src={JS} alt='JavaScript icon' text='JavaScript' />
 									<SkillIcon src={TS} alt='TypeScript icon' text='TypeScript' />
 									<SkillIcon src={Java} alt='Java icon' text='Java' />
 									<SkillIcon src={React} alt='React icon' text='React' />
-								</div>
-								<div className='flex-1 flex flex-col gap-2'>
 									<SkillIcon src={Nest} alt='NestJS icon' text='NestJS' />
 									<SkillIcon
 										src={Spring}
