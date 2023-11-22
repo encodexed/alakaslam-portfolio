@@ -26,73 +26,83 @@ import Mongo from "../../public/images/skills-icons/mongodb.svg";
 import MySQL from "../../public/images/skills-icons/mysql.svg";
 import Git from "../../public/images/skills-icons/git.svg";
 import SkillIcon from "./components/SkillIcon";
-import { Button } from "@mui/material";
 
 const page = () => {
 	return (
 		<>
 			<Header />
 			<ContentWrapper>
-				<section className='text-brand-body flex py-2 gap-8'>
-					<div className='flex flex-col w-1/3 gap-4'>
-						<Image src={Me} alt='A picture of me' />
-						<h1 className='text-5xl text-brand-heading font-bold'>
+				<p className='text-xs text-brand-accent text-center'>
+					Site still being built but deployed to give preliminary details of
+					myself and my work. Best accessed on a computer/tablet. Small screens
+					not fully supported. (23rd November, 2023)
+				</p>
+				<section className='text-brand-body flex flex-col sm:items-start sm:flex-row py-2 gap-8'>
+					<div className='flex flex-col w-full sm:w-1/3 gap-4'>
+						<div className='m-auto w-2/3 sm:w-full'>
+							<Image src={Me} alt='A picture of me' />
+						</div>
+						<h1 className='text-center sm:text-left text-5xl text-brand-heading font-bold'>
 							Hi, I&apos;m Robbie
 						</h1>
-						<h2 className='text-2xl text-brand-sub'>
-							Web Developer. <br />
-							Musician. <br />
-							Bird Dad.
+						<h2 className='text-2xl text-brand-sub w-3/4 m-auto sm:w-full'>
+							<ul className='text-center sm:text-left'>
+								<li>Web Developer.</li>
+								<li>Musician.</li>
+								<li>Bird Dad.</li>
+							</ul>
 						</h2>
-						<ul className='flex flex-col gap-2'>
-							<li className='text-spectrum-2'>
-								<Link href='https://github.com/encodexed'>
+						<div className='flex justify-center sm:justify-start'>
+							<ul className='flex flex-wrap sm:flex-col gap-2 justify-center'>
+								<li className='text-spectrum-2'>
+									<Link href='https://github.com/encodexed'>
+										<span className='text-white'>
+											<GitHub />
+										</span>{" "}
+										encodexed
+									</Link>
+								</li>
+								<li className='text-spectrum-4'>
+									<Link href='https://www.linkedin.com/in/robbie-gollan-b05684261/'>
+										<span className='text-white'>
+											<LinkedIn />
+										</span>{" "}
+										Robbie Gollan
+									</Link>
+								</li>
+								<li className='text-spectrum-6'>
+									<Link href='https://steamcommunity.com/id/alakaslam'>
+										<span className='text-white'>
+											<SportsEsports />
+										</span>{" "}
+										alakaslam (Steam)
+									</Link>
+								</li>
+								<li className='text-spectrum-1'>
+									<Link href='https://discordapp.com/users/352214108663447552'>
+										<span className='text-white'>
+											<Telegram />
+										</span>{" "}
+										alakaslam (Discord)
+									</Link>
+								</li>
+								<li className='text-spectrum-5'>
 									<span className='text-white'>
-										<GitHub />
+										<AlternateEmail />
 									</span>{" "}
-									encodexed
-								</Link>
-							</li>
-							<li className='text-spectrum-4'>
-								<Link href='https://www.linkedin.com/in/robbie-gollan-b05684261/'>
-									<span className='text-white'>
-										<LinkedIn />
-									</span>{" "}
-									Robbie Gollan
-								</Link>
-							</li>
-							<li className='text-spectrum-6'>
-								<Link href='https://steamcommunity.com/id/alakaslam'>
-									<span className='text-white'>
-										<SportsEsports />
-									</span>{" "}
-									alakaslam (Steam)
-								</Link>
-							</li>
-							<li className='text-spectrum-1'>
-								<Link href='https://discordapp.com/users/352214108663447552'>
-									<span className='text-white'>
-										<Telegram />
-									</span>{" "}
-									alakaslam (Discord)
-								</Link>
-							</li>
-							<li className='text-spectrum-5'>
-								<span className='text-white'>
-									<AlternateEmail />
-								</span>{" "}
-								robbiegollan@gmail.com
-							</li>
-						</ul>
+									robbiegollan@gmail.com
+								</li>
+							</ul>
+						</div>
 					</div>
 
-					<div className='flex flex-col gap-4 w-2/3'>
+					<div className='flex flex-col gap-4 w-full sm:w-2/3'>
 						<div>
 							<h2 className='text-2xl text-brand-heading mb-4 font-bold'>
 								Skills
 							</h2>
 							<div className='flex'>
-								<div className='flex-1 flex flex-col gap-2'>
+								<div className='flex-1 flex flex-wrap'>
 									<SkillIcon src={HTML} alt='HTML5 icon' text='HTML' />
 									<SkillIcon src={CSS} alt='CSS3 icon' text='CSS' />
 									<SkillIcon src={Sass} alt='Sass icon' text='SCSS/Sass' />
@@ -101,14 +111,10 @@ const page = () => {
 										alt='Tailwind icon'
 										text='TailwindCSS'
 									/>
-								</div>
-								<div className='flex-1 flex flex-col gap-2'>
 									<SkillIcon src={JS} alt='JavaScript icon' text='JavaScript' />
 									<SkillIcon src={TS} alt='TypeScript icon' text='TypeScript' />
 									<SkillIcon src={Java} alt='Java icon' text='Java' />
 									<SkillIcon src={React} alt='React icon' text='React' />
-								</div>
-								<div className='flex-1 flex flex-col gap-2'>
 									<SkillIcon src={Nest} alt='NestJS icon' text='NestJS' />
 									<SkillIcon
 										src={Spring}
