@@ -1,0 +1,28 @@
+import { StaticImageData } from "next/image";
+import ReactIcon from "./react.svg";
+import HTMLIcon from "./html5.svg";
+import CSSIcon from "./css3.svg";
+import GitIcon from "./git.svg";
+import JavaIcon from "./java.svg";
+import JavaScriptIcon from "./javascript.svg";
+import MongoIcon from "./mongodb.svg";
+import MySQLIcon from "./mysql.svg";
+import NestIcon from "./nestjs.svg";
+import SassIcon from "./sass2.svg";
+import SpringIcon from "./spring.svg";
+import TailwindIcon from "./tailwindcss.svg";
+import TypeScriptIcon from "./typescript.svg";
+
+export const React: StaticImageData = ReactIcon;
+export const HTML: StaticImageData = HTMLIcon;
+export const CSS: StaticImageData = CSSIcon;
+export const Git: StaticImageData = GitIcon;
+export const Java: StaticImageData = JavaIcon;
+export const JavaScript: StaticImageData = JavaScriptIcon;
+export const Mongo: StaticImageData = MongoIcon;
+export const MySQL: StaticImageData = MySQLIcon;
+export const Nest: StaticImageData = NestIcon;
+export const Sass: StaticImageData = SassIcon;
+export const Spring: StaticImageData = SpringIcon;
+export const Tailwind: StaticImageData = TailwindIcon;
+export const TypeScript: StaticImageData = TypeScriptIcon;

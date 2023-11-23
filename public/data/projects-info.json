@@ -4,7 +4,24 @@
 			"id": 1,
 			"title": "ESO Alchemy Assistant",
 			"subtitle": "A potions and ingredients calculator for Elder Scrolls Online",
-			"techStack": ["HTML/JSX", "TailwindCSS", "JavaScript", "ReactJS"],
+			"techStack": [
+				{
+					"label": "HTML/JSX",
+					"icon": "HTML"
+				},
+				{
+					"label": "TailwindCSS",
+					"icon": "Tailwind"
+				},
+				{
+					"label": "JavaScript",
+					"icon": "JavaScript"
+				},
+				{
+					"label": "ReactJS",
+					"icon": "React"
+				}
+			],
 			"isFeature": false,
 			"dateStarted": "2023-03-26",
 			"dateFinished": "2023-04-19",
@@ -22,11 +39,26 @@
 			"title": "Portfolio Website",
 			"subtitle": "The place where all of my work is documented",
 			"techStack": [
-				"HTML/JSX",
-				"TailwindCSS",
-				"TypeScript",
-				"ReactJS",
-				"NextJS"
+				{
+					"label": "HTML/JSX",
+					"icon": "HTML"
+				},
+				{
+					"label": "TailwindCSS",
+					"icon": "Tailwind"
+				},
+				{
+					"label": "TypeScript",
+					"icon": "TypeScript"
+				},
+				{
+					"label": "ReactJS",
+					"icon": "React"
+				},
+				{
+					"label": "NextJS",
+					"icon": "Next"
+				}
 			],
 			"isFeature": true,
 			"dateStarted": "2023-11-20",
@@ -43,12 +75,30 @@
 			"title": "The Mysterious Stranger",
 			"subtitle": "A full-stack eCommerce project similar to Steam",
 			"techStack": [
-				"HTML/JSX",
-				"Sass/SCSS",
-				"JavaScript",
-				"ReactJS",
-				"React-Router",
-				"Google Firestore"
+				{
+					"label": "HTML/JSX",
+					"icon": "HTML"
+				},
+				{
+					"label": "Sass/SCSS",
+					"icon": "Sass"
+				},
+				{
+					"label": "JavaScript",
+					"icon": "JavaScript"
+				},
+				{
+					"label": "ReactJS",
+					"icon": "React"
+				},
+				{
+					"label": "React-Router",
+					"icon": "React"
+				},
+				{
+					"label": "Google Firestore",
+					"icon": "React"
+				}
 			],
 			"isFeature": true,
 			"dateStarted": "2023-09-27",
@@ -67,7 +117,24 @@
 			"id": 4,
 			"title": "Google Books Search",
 			"subtitle": "A frontend UI for interacting with the Google Books API",
-			"techStack": ["HTML/JSX", "Sass/SCSS", "JavaScript", "ReactJS"],
+			"techStack": [
+				{
+					"label": "HTML/JSX",
+					"icon": "HTML"
+				},
+				{
+					"label": "Sass/SCSS",
+					"icon": "Sass"
+				},
+				{
+					"label": "JavaScript",
+					"icon": "JavaScript"
+				},
+				{
+					"label": "ReactJS",
+					"icon": "React"
+				}
+			],
 			"isFeature": true,
 			"dateStarted": "2023-09-19",
 			"dateFinished": "2023-09-26",
@@ -85,7 +152,12 @@
 			"id": 5,
 			"title": "Java Minesweeper",
 			"subtitle": "Recreates Microsoft's legendary Minesweeper app for the CLI",
-			"techStack": ["Java"],
+			"techStack": [
+				{
+					"label": "Java",
+					"icon": "Java"
+				}
+			],
 			"isFeature": true,
 			"dateStarted": "2023-10-11",
 			"dateFinished": "2023-10-23",
@@ -101,7 +173,24 @@
 			"id": 6,
 			"title": "Morse Code Translator",
 			"subtitle": "A simple web page for translating english to morse code, and back if needed",
-			"techStack": ["HTML", "Sass/SCSS", "JavaScript", "Jest"],
+			"techStack": [
+				{
+					"label": "HTML/JSX",
+					"icon": "HTML"
+				},
+				{
+					"label": "Sass/SCSS",
+					"icon": "Sass"
+				},
+				{
+					"label": "JavaScript",
+					"icon": "JavaScript"
+				},
+				{
+					"label": "Jest",
+					"icon": "Jest"
+				}
+			],
 			"isFeature": true,
 			"dateStarted": "2023-10-11",
 			"dateFinished": "2023-10-23",

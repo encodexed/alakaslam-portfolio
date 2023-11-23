@@ -11,7 +11,7 @@ export interface ProjectsData {
 	id: number;
 	title: string;
 	subtitle: string;
-	techStack: string[];
+	techStack: SkillData[];
 	isFeature: boolean;
 	dateStarted: string;
 	dateFinished: string;
@@ -21,6 +21,11 @@ export interface ProjectsData {
 	githubLink: string;
 	status: string;
 	liveLink?: string;
+}
+
+export interface SkillData {
+	label: string;
+	icon: string;
 }
 
 const ProjectsPage = () => {
