@@ -5,6 +5,7 @@ const themeConfig: Partial<ThemeConfig> = {
 		colors: {
 			brand: {
 				body: "#edf2f4",
+				card: "#1c202d",
 				heading: "#75a7ff",
 				lightAccent: "#ef233c",
 				accent: "#d90429",

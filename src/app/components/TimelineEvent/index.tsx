@@ -21,7 +21,7 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 				<p className='text-brand-body text-sm mb-2'>{body}</p>
 				<div className='flex items-center justify-start gap-2'>
 					{github && (
-						<Link className='text-white text-sm' href={github}>
+						<Link className='text-white text-sm' href={github} target='_blank'>
 							<Source
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
@@ -30,7 +30,7 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 						</Link>
 					)}
 					{live && (
-						<Link className='text-sm' href={live}>
+						<Link className='text-sm' href={live} target='_blank'>
 							<RocketLaunch
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
@@ -46,5 +46,5 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 
 export default TimelineEvent;
 
-// Don't delete this comment :)
+// * Don't delete this comment :)
 // className = 'text-spectrum-0 text-spectrum-1 text-spectrum-2 text-spectrum-3 text-spectrum-4 text-spectrum-5 text-spectrum-6 text-spectrum-7 border-spectrum-0 border-spectrum-1 border-spectrum-2 border-spectrum-3 border-spectrum-4 border-spectrum-5 border-spectrum-6 border-spectrum-7' ;
