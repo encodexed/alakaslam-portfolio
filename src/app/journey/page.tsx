@@ -1,7 +1,7 @@
 "use client";
 
-import CustomisedTimeline from "../components/CustomisedTimeline";
 import Header from "../components/Header";
+import Timeline from "../components/Timeline";
 import ContentWrapper from "../containers/ContentWrapper";
 
 const JourneyPage = () => {
@@ -24,7 +24,7 @@ const JourneyPage = () => {
 					</p>
 				</section>
 				<section className='text-brand-body'>
-					<CustomisedTimeline />
+					<Timeline />
 				</section>
 			</ContentWrapper>
 		</>
