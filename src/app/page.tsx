@@ -101,30 +101,28 @@ const page = () => {
 							<h2 className='text-2xl text-brand-heading mb-4 font-bold'>
 								Skills
 							</h2>
-							<div className='flex'>
-								<div className='flex-1 flex flex-wrap'>
-									<SkillIcon src={HTML} alt='HTML5 icon' text='HTML' />
-									<SkillIcon src={CSS} alt='CSS3 icon' text='CSS' />
-									<SkillIcon src={Sass} alt='Sass icon' text='SCSS/Sass' />
-									<SkillIcon
-										src={Tailwind}
-										alt='Tailwind icon'
-										text='TailwindCSS'
-									/>
-									<SkillIcon src={JS} alt='JavaScript icon' text='JavaScript' />
-									<SkillIcon src={TS} alt='TypeScript icon' text='TypeScript' />
-									<SkillIcon src={Java} alt='Java icon' text='Java' />
-									<SkillIcon src={React} alt='React icon' text='React' />
-									<SkillIcon src={Nest} alt='NestJS icon' text='NestJS' />
-									<SkillIcon
-										src={Spring}
-										alt='Java Spring icon'
-										text='Java Spring'
-									/>
-									<SkillIcon src={MySQL} alt='MySQL icon' text='MySQL' />
-									<SkillIcon src={Mongo} alt='MongoDB icon' text='MongoDB' />
-									<SkillIcon src={Git} alt='Git icon' text='Git' />
-								</div>
+							<div className='flex flex-wrap'>
+								<SkillIcon src={HTML} alt='HTML5 icon' text='HTML' />
+								<SkillIcon src={CSS} alt='CSS3 icon' text='CSS' />
+								<SkillIcon src={Sass} alt='Sass icon' text='SCSS/Sass' />
+								<SkillIcon
+									src={Tailwind}
+									alt='Tailwind icon'
+									text='TailwindCSS'
+								/>
+								<SkillIcon src={JS} alt='JavaScript icon' text='JavaScript' />
+								<SkillIcon src={TS} alt='TypeScript icon' text='TypeScript' />
+								<SkillIcon src={Java} alt='Java icon' text='Java' />
+								<SkillIcon src={React} alt='React icon' text='React' />
+								<SkillIcon src={Nest} alt='NestJS icon' text='NestJS' />
+								<SkillIcon
+									src={Spring}
+									alt='Java Spring icon'
+									text='Java Spring'
+								/>
+								<SkillIcon src={MySQL} alt='MySQL icon' text='MySQL' />
+								<SkillIcon src={Mongo} alt='MongoDB icon' text='MongoDB' />
+								<SkillIcon src={Git} alt='Git icon' text='Git' />
 							</div>
 							<div>
 								<h2 className='text-2xl text-brand-heading mb-4 font-bold'>

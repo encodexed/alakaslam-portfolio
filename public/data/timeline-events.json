@@ -1,124 +1,109 @@
 {
-	"data": [
+	"timeline": [
 		{
 			"id": 16,
 			"date": "Nov, '24",
 			"title": "Began work on my portfolio rebuild",
 			"body": "After spending some time resting, doing some housework, seeing some friends and cleaning up my github, I have begun work to completely redo my first project: the portfolio. If you're reading this right now, something must be going to plan :)",
-			"dotType": "outlined"
+			"github": "https://github.com/encodexed/alakaslam-portfolio",
+			"live": "https://alakaslam.io"
 		},
 		{
 			"id": 15,
 			"date": "Nov, '24",
 			"title": "Completed _nology bootcamp",
-			"body": "Twelve weeks of classes, studying and a great deal of work and practice, we finished our course! It was capped off with two weeks of collaborative pair-programming on a client project. The idea was to give us an idea of the real day-to-day of a developer: completing tickets as part of a sprint, daily standup, merge conflicts and other fun stuff. We were now ready to move onto the post-course training which was entirely self-motivated, while also preparing for hopefully some future interviews.",
-			"dotType": "filled"
+			"body": "Twelve weeks of classes, studying and a great deal of work and practice, we finished our course! It was capped off with two weeks of collaborative pair-programming on a client project. The idea was to give us an idea of the real day-to-day of a developer: completing tickets as part of a sprint, daily standup, merge conflicts and other fun stuff. We were now ready to move onto the post-course training which was entirely self-motivated, while also preparing for hopefully some future interviews."
 		},
 		{
 			"id": 14,
 			"date": "Oct, '24",
 			"title": "Completed assignment #6 - Java Minesweeper",
 			"body": "Our final solo project for the course, we had learnt a little bit of Java by this point and were tasked with recreating the classic game of Minesweeper in a Java CLI app. I also really enjoyed this project as I was able to revisit Java from years ago and work with game logic.",
-			"github": "https://github.com/encodexed/minesweeper",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/minesweeper"
 		},
 		{
 			"id": 13,
 			"date": "Oct, '24",
 			"title": "Completed assignment #5 - React eCommerce Project",
 			"body": "Just passing the halfway mark, we were now interacting with our own pseudo-backend, a hosted NoSQL document database Google Firestore. I was pretty happy with the way this project turned out visually, as I chose video games as my product of choice for sale.",
-			"github": "https://github.com/encodexed/eShop",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/eShop"
 		},
 		{
 			"id": 12,
 			"date": "Oct, '24",
 			"title": "Completed assignment #4 - Google Books Search",
 			"body": "By now, we had covered some React and were also making use of the fetch API from JavaScript to interact with some foreign APIs. This was approximately five weeks into the course. The workload alongside these projects was also hectic.",
-			"github": "https://github.com/encodexed/google-books",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/google-books"
 		},
 		{
 			"id": 11,
 			"date": "Sep, '23",
 			"title": "Completed assignment #3 - Morse Code Translator",
 			"body": "Our third project for the course, we extended our practice of JavaScript and the DOM, but were now also using Jest to write some tests for our functions.",
-			"github": "https://github.com/encodexed/morse-code-translator",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/morse-code-translator"
 		},
 		{
 			"id": 10,
 			"date": "Sep, '23",
 			"title": "Completed assignment #2 - FakeOS",
 			"body": "Having learnt a bit more about JavaScript and the DOM, we were tasked with recreating the look of an Operating System desktop/home screen. I chose to recreate an early Mac OS X setting.",
-			"github": "https://github.com/encodexed/fakeOS",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/fakeOS"
 		},
 		{
 			"id": 9,
 			"date": "Sep, '23",
 			"title": "Completed assignment #1 - Portfolio",
-			"body": "Our first assignment was to write a simple portfolio page using just HTML and CSS, after only a week or so into the course. While I was able to do a pretty decent job, the portfolio you are currently reading is an updated version of the original, remade in ReactJS.",
-			"dotType": "filled"
+			"body": "Our first assignment was to write a simple portfolio page using just HTML and CSS, after only a week or so into the course. While I was able to do a pretty decent job, the portfolio you are currently reading is an updated version of the original, remade in ReactJS."
 		},
 		{
 			"id": 8,
 			"date": "Aug, '23",
 			"title": "Started studying with _nology",
-			"body": "Having had some very close calls with finding a junior developer position, I was accepted to begin learning at _nology. At the time, I was skeptical as to what I would learn over the months, thinking I had a firm grasp on JavaScript and CSS, but I was very wrong. Over the intense 12 week program, I built many different small projects, and solidified and added to my pre-existing skills. I also learnt some new technologies such as (collaborative-focused) git, SCSS/Sass, various testing suites, TypeScript and NestJS. As well, I was able to revisit Java that I had learnt over a decade before, and extend that to learning the Spring Framework.",
-			"dotType": "filled"
+			"body": "Having had some very close calls with finding a junior developer position, I was accepted to begin learning at _nology. At the time, I was skeptical as to what I would learn over the months, thinking I had a firm grasp on JavaScript and CSS, but I was very wrong. Over the intense 12 week program, I built many different small projects, and solidified and added to my pre-existing skills. I also learnt some new technologies such as (collaborative-focused) git, SCSS/Sass, various testing suites, TypeScript and NestJS. As well, I was able to revisit Java that I had learnt over a decade before, and extend that to learning the Spring Framework."
 		},
 		{
 			"id": 7,
 			"date": "Apr '23",
 			"title": "My first React project - ESO Alchemy Assistant",
 			"body": "Having finished the previously mentioned React course a month before, I decided to create a front-end app to practice what I had learnt. I created the Elder Scrolls Online Alchemy Assistant. Looking back on it today, it definitely could use a bit of work, but I was very happy to have created something that worked well and helped me as a tool. The tech stack used was JavaScript, TailwindCSS, and ReactJS.",
-			"github": "https://github.com/encodexed/elder-scrolls-alchemy",
-			"live": "https://alakaslam.io",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/elder-scrolls-alchemy"
 		},
 		{
 			"id": 6,
 			"date": "Feb '23",
 			"title": "Started learning ReactJS and MySQL",
-			"body": "I had begun applying for junior and intern jobs in the market and noticed that a lot of positions required React, so I decided to investigate it, and it looked like a whole new level of skill. So I took Maximilian Schwarzmüller's ReactJS course, alongside a MySQL course by Colt Steele to spend the time between applying for jobs.",
-			"dotType": "filled"
+			"body": "I had begun applying for junior and intern jobs in the market and noticed that a lot of positions required React, so I decided to investigate it, and it looked like a whole new level of skill. So I took Maximilian Schwarzmüller's ReactJS course, alongside a MySQL course by Colt Steele to spend the time between applying for jobs."
 		},
 		{
 			"id": 5,
 			"date": "Dec '22",
 			"title": "My first full-stack project - the ISM website",
 			"body": "Feeling great about having completed my course, I was eager to get out and build my own projects. I had told my employer that I was studying web development and she asked if I would like to try and rebuild her business website. I was given access to the WordPress and much to my dismay, I felt at the time that I had very little power to properly apply my coding skills. The database being used was also a MS Access file so things were going to be difficult, if not impossible, to integrate. I convinced her to build from scratch with more of an online database, and things were going not too bad, but actual music work became much more critical for both of us so the project was halted indefinitely. The tech stack used in the end was MongoDB, Express and Embedded JavaScript.",
-			"github": "https://github.com/encodexed/ISM",
-			"dotType": "filled"
+			"github": "https://github.com/encodexed/ISM"
 		},
 		{
 			"id": 4,
 			"date": "Aug '22",
 			"title": "Started learning HTML, CSS, JavaScript",
-			"body": "I once again felt the urge to do some programming, but this time I had more wind in my sails. I was learning alongside a friend and backed by the will to find a more satisfying career. We took Colt Steele's Web Developer Bootcamp on udemy.com but despite my friend pulling out early, I persisted especially as I found JavaScript to be a much nicer language to begin learning the basics with. It was a full-stack program and I was able to learn HTML, CSS, JavaScript, Express and working with MongoDB/Mongoose. With the help of Colt, I was able to complete the course and create a YelpCamp website which unfortunately doesn't exist anywhere on the internet as this was before I had become acquainted with git.",
-			"dotType": "filled"
+			"body": "I once again felt the urge to do some programming, but this time I had more wind in my sails. I was learning alongside a friend and backed by the will to find a more satisfying career. We took Colt Steele's Web Developer Bootcamp on udemy.com but despite my friend pulling out early, I persisted especially as I found JavaScript to be a much nicer language to begin learning the basics with. It was a full-stack program and I was able to learn HTML, CSS, JavaScript, Express and working with MongoDB/Mongoose. With the help of Colt, I was able to complete the course and create a YelpCamp website which unfortunately doesn't exist anywhere on the internet as this was before I had become acquainted with git."
 		},
 		{
 			"id": 3,
 			"date": "Jul '21",
 			"title": "Started learning C, but didn't quite finish...",
-			"body": "As I was beginning to feel a little hungrier for programming, likely thanks to being surrounded in my personal life by web and game developers, I took Harvard's CS50's Introduction to Computer Science online and stuck with it for a little while but was entirely demotivated by Covid lockdowns, so I ended up stopping. I plan to finish it one day.",
-			"dotType": "filled"
+			"body": "As I was beginning to feel a little hungrier for programming, likely thanks to being surrounded in my personal life by web and game developers, I took Harvard's CS50's Introduction to Computer Science online and stuck with it for a little while but was entirely demotivated by Covid lockdowns, so I ended up stopping. I plan to finish it one day."
 		},
 		{
 			"id": 2,
 			"date": "Mar '11",
 			"title": "First introduction to Java",
-			"body": "While at university, I took a semester in introductory programming and learnt the basics of Java. We built a few applications such as a Coffee Bot and a Wildfire Simulation app. Unfortunately, I did not continue along the programming path here but I did get a taste for it.",
-			"dotType": "filled"
+			"body": "While at university, I took a semester in introductory programming and learnt the basics of Java. We built a few applications such as a Coffee Bot and a Wildfire Simulation app. Unfortunately, I did not continue along the programming path here but I did get a taste for it."
 		},
 		{
 			"id": 1,
 			"date": "Nov '09",
 			"title": "Started teaching piano and music theory",
-			"body": "After finishing high school and 13 years of music prior, my piano teacher hired me to help her teach the younger generation. I worked for her for approximately nine years and then have been teaching at the International School of Music up until present.",
-			"dotType": "filled"
+			"body": "After finishing high school and 13 years of music prior, my piano teacher hired me to help her teach the younger generation. I worked for her for approximately nine years and then have been teaching at the International School of Music up until present."
 		}
 	]
 }
