@@ -93,11 +93,11 @@
 				},
 				{
 					"label": "React-Router",
-					"icon": "React"
+					"icon": "ReactRouter"
 				},
 				{
 					"label": "Google Firestore",
-					"icon": "React"
+					"icon": "Firestore"
 				}
 			],
 			"isFeature": true,
