@@ -1,11 +1,19 @@
 import { ProjectsData } from "@/app/projects/page";
 import Image from "next/image";
-import SkillIcon from "../SkillIcon";
-import { React } from "../../../../public/images/skills-icons/skillIcons";
 import DynamicSkillIcon from "../DynamicSkillIcon";
+import { RocketLaunch, Source } from "@mui/icons-material";
+import Link from "next/link";
 
 const FeaturedProject = ({ project }: { project: ProjectsData }) => {
-	const { id, techStack, title, status, description, imageLinks } = project;
+	const {
+		id,
+		techStack,
+		title,
+		description,
+		imageLinks,
+		githubLink,
+		liveLink,
+	} = project;
 
 	const colorId = id % 8;
 	const baseClass = "text-spectrum-";
@@ -34,8 +42,29 @@ const FeaturedProject = ({ project }: { project: ProjectsData }) => {
 						);
 					})}
 				</div>
-				<p>Status: {status}</p>
 				<p>{description}</p>
+				<div className='flex gap-2'>
+					<Link
+						className='text-white text-sm'
+						href={githubLink}
+						target='_blank'
+					>
+						<Source
+							fontSize='small'
+							sx={{ position: "relative", top: "-2px" }}
+						/>{" "}
+						<span className={`${colorClass} font-bold`}>Github</span>
+					</Link>
+					{liveLink && (
+						<Link className='text-sm' href={liveLink} target='_blank'>
+							<RocketLaunch
+								fontSize='small'
+								sx={{ position: "relative", top: "-2px" }}
+							/>{" "}
+							<span className={`${colorClass} font-bold`}>Live Site</span>
+						</Link>
+					)}
+				</div>
 			</div>
 		</article>
 	);
