@@ -6,6 +6,7 @@ import Projects from "../../../public/data/projects-info.json";
 import { useEffect, useState } from "react";
 import FeaturedProjects from "../components/FeaturedProjects";
 import UnfeaturedProjects from "../components/UnfeaturedProjects";
+import Heading from "../components/Heading";
 
 export interface ProjectsData {
 	id: number;
@@ -49,18 +50,12 @@ const ProjectsPage = () => {
 		<>
 			<Header />
 			<ContentWrapper>
-				<section className=' text-brand-body'>
-					<h1 className='text-center text-5xl text-brand-heading font-bold py-4'>
+				<section className='text-palette-offwhite'>
+					<Heading element='h1' classes='text-center py-4'>
 						My Projects
-					</h1>
-					{/* <h2 className='text-2xl text-brand-heading mb-4 font-bold'>
-						Featured Projects
-					</h2> */}
+					</Heading>
 					<FeaturedProjects projects={featuredProjects} />
-					{/* <h2 className='text-2xl text-brand-heading mb-4 font-bold'>
-						Other Projects
-					</h2> */}
-					<UnfeaturedProjects projects={unfeaturedProjects} />
+					{/* <UnfeaturedProjects projects={unfeaturedProjects} /> */}
 				</section>
 			</ContentWrapper>
 		</>
