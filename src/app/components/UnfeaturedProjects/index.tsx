@@ -4,7 +4,7 @@ const UnfeaturedProjects = ({ projects }: { projects: ProjectsData[] }) => {
 	return (
 		<>
 			{projects.map((project) => {
-				return <article key={project.id}></article>;
+				return <article key={project.id}>{project.title}</article>;
 			})}
 		</>
 	);

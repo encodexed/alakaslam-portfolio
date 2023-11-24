@@ -26,32 +26,28 @@ import Mongo from "../../public/images/skills-icons/mongodb.svg";
 import MySQL from "../../public/images/skills-icons/mysql.svg";
 import Git from "../../public/images/skills-icons/git.svg";
 import SkillIcon from "./components/SkillIcon";
+import Heading from "./components/Heading";
 
 const page = () => {
 	return (
 		<>
 			<Header />
 			<ContentWrapper>
-				<p className='text-xs text-brand-accent text-center'>
-					Site still being built but deployed to give preliminary details of
-					myself and my work. Best accessed on a computer/tablet. Small screens
-					not fully supported. (23rd November, 2023)
-				</p>
 				<section className='text-brand-body flex flex-col sm:items-start sm:flex-row py-2 gap-8'>
 					<div className='flex flex-col w-full sm:w-1/3 gap-4'>
 						<div className='m-auto w-2/3 sm:w-full'>
 							<Image src={Me} alt='A picture of me' />
 						</div>
-						<h1 className='text-center sm:text-left text-5xl text-brand-heading font-bold'>
+						<Heading element='h1' classes='text-center sm:text-left'>
 							Hi, I&apos;m Robbie
-						</h1>
-						<h2 className='text-2xl text-brand-sub w-3/4 m-auto sm:w-full'>
+						</Heading>
+						<div className='text-2xl text-brand-sub w-3/4 m-auto sm:w-full'>
 							<ul className='text-center sm:text-left'>
 								<li>Web Developer.</li>
 								<li>Musician.</li>
 								<li>Bird Dad.</li>
 							</ul>
-						</h2>
+						</div>
 						<div className='flex justify-center sm:justify-start'>
 							<ul className='flex flex-wrap sm:flex-col gap-2 justify-center'>
 								<li className='text-spectrum-2'>
@@ -98,9 +94,9 @@ const page = () => {
 
 					<div className='flex flex-col gap-4 w-full sm:w-2/3'>
 						<div>
-							<h2 className='text-2xl text-brand-heading mb-4 font-bold'>
+							<Heading element='h3' classes='mb-4'>
 								Skills
-							</h2>
+							</Heading>
 							<div className='flex flex-wrap'>
 								<SkillIcon src={HTML} alt='HTML5 icon' text='HTML' />
 								<SkillIcon src={CSS} alt='CSS3 icon' text='CSS' />
@@ -125,9 +121,9 @@ const page = () => {
 								<SkillIcon src={Git} alt='Git icon' text='Git' />
 							</div>
 							<div>
-								<h2 className='text-2xl text-brand-heading mb-4 font-bold'>
+								<Heading element='h3' classes='mb-4'>
 									About
-								</h2>
+								</Heading>
 								<p>
 									For 15 years, I was a private music educator, with a passion
 									for writing my own music and playing the piano. I grew up
@@ -150,32 +146,6 @@ const page = () => {
 								</p>
 							</div>
 						</div>
-						{/* <div>
-							<h2 className='text-2xl text-brand-heading mb-4 font-bold'>
-								Check Me Out!
-							</h2>
-							<ul className='flex flex-col gap-2'>
-								<li>
-									<Button
-										variant='outlined'
-										size='small'
-										sx={{ color: "white" }}
-									>
-										<Link href='/journey'>My Journey</Link>
-									</Button>
-									See where I&apos;ve come from and what I&apos;ve been up to!
-								</li>
-								<li>
-									<Link href='/projects'>My Projects</Link> - Check out some
-									detailed information about what I&apos; worked on in the past!
-								</li>
-								<li>
-									<Link href='/contact'>My Details</Link> - Get in touch with me
-									about hiring, freelancing or collaboration. Or just say hello!
-									I love meeting new people.
-								</li>
-							</ul>
-						</div> */}
 					</div>
 				</section>
 			</ContentWrapper>

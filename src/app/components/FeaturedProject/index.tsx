@@ -3,20 +3,19 @@ import Image from "next/image";
 import DynamicSkillIcon from "../DynamicSkillIcon";
 import { RocketLaunch, Source } from "@mui/icons-material";
 import Link from "next/link";
+import Heading from "../Heading";
 
 const FeaturedProject = ({ project }: { project: ProjectsData }) => {
 	const { id, techStack, title, subtitle, imageLinks, githubLink, liveLink } =
 		project;
 
-	const colorId = id % 8;
-	const baseClass = "text-spectrum-";
-	const colorClass = baseClass + colorId;
-
 	return (
 		<article className='flex flex-col-reverse sm:justify-between sm:flex-row mb-12 gap-4 p-4 border-2 bg-brand-card border-transparent hover:border-white transition-all'>
 			<div className='flex flex-col justify-between gap-4'>
 				<div>
-					<h3 className={`${colorClass} text-3xl font-bold`}>{title}</h3>
+					<Heading element='h2' classes='text-palette-mint'>
+						{title}
+					</Heading>
 					<p className='text-brand-sub'>{subtitle}</p>
 					<div className='mt-2 flex gap-2'>
 						<Link
@@ -28,7 +27,7 @@ const FeaturedProject = ({ project }: { project: ProjectsData }) => {
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
 							/>{" "}
-							<span className={`${colorClass} font-bold`}>Github</span>
+							<span className='text-palette-mint font-bold'>Github</span>
 						</Link>
 						{liveLink && (
 							<Link className='text-sm' href={liveLink} target='_blank'>
@@ -36,7 +35,7 @@ const FeaturedProject = ({ project }: { project: ProjectsData }) => {
 									fontSize='small'
 									sx={{ position: "relative", top: "-2px" }}
 								/>{" "}
-								<span className={`${colorClass} font-bold`}>Live Site</span>
+								<span className='text-palette-mint font-bold'>Live Site</span>
 							</Link>
 						)}
 					</div>

@@ -17,11 +17,14 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 				{date}
 			</div>
 			<div className='pl-4 mb-8'>
-				<h2 className={`text-lg font-bold text-${colorClass}`}>{title}</h2>
-				<p className='text-brand-body text-sm mb-2'>{body}</p>
+				<h5 className={`text-lg font-bold text-${colorClass}`}>{title}</h5>
+				{/* <Heading element='h5' classes={colorClass}>
+					{title}
+				</Heading> */}
+				<p className='text-sm mb-2'>{body}</p>
 				<div className='flex items-center justify-start gap-2'>
 					{github && (
-						<Link className='text-white text-sm' href={github} target='_blank'>
+						<Link className='text-sm' href={github} target='_blank'>
 							<Source
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}

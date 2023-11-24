@@ -27,6 +27,7 @@
 			"dateFinished": "2023-04-19",
 			"description": "The Elder Scrolls Online (ESO) Alchemy Assistant app is a tool for people who play ESO. It aims to emulate the alchemy crafting system present in the game but as a calculator to help players craft potions. In the game, the mechanics and the UI can often be confusing, and depending on the player's progress in the game, ingredients may not display their full range of effects and capabilities. This app then demystifies the process and helps players explore and experiment with different combinations of ingredients and effects.",
 			"imageLinks": [
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790001/alchemy-square_edtvay.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699920664/Screenshot_2023-11-14_at_11.04.10_am_rpy9yr.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699920711/Screenshot_2023-11-14_at_11.04.28_am_qpkeo1.png"
 			],
@@ -63,7 +64,9 @@
 			"dateStarted": "2023-11-20",
 			"dateFinished": "",
 			"description": "This is the repository that holds my portfolio website and it is actively being worked on.",
-			"imageLinks": [],
+			"imageLinks": [
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790001/portfolio-square_sjluix.png"
+			],
 			"projectType": "solo",
 			"githubLink": "https://github.com/encodexed/alakaslam-portfolio",
 			"liveLink": "https://alakaslam.io"
@@ -103,6 +106,7 @@
 			"dateFinished": "2023-10-10",
 			"description": "The Mysterious Stranger is a mock up eCommerce store built as part of my participation during the _nology bootcamp. We were given two weeks to integrate a NoSQL document database (in this case, Google Firestore) with a React frontend UI that we were to build as part of our React training. Some critical parts of this project include: fetching data within a React app, using react-router-dom, and using Google's Firebase/Firestore. I chose to replicate something similar to Steam, because I am interested in video games.",
 			"imageLinks": [
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790002/eShop-square_h0wcie.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699876978/eShop-wares_lbkdvv.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699877229/eShop-item_s0lrnm.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699877259/eShop-cart_gh0lwm.png"
@@ -137,6 +141,7 @@
 			"dateFinished": "2023-09-26",
 			"description": "Google Books Search is a project I built as part of my participation during the _nology bootcamp. We were given a week to build a basic React app which interacted with a foreign API endpoint, in this case, the Google Books API. Some critical parts of this project include: fetching data within a React app, dealing with data out of our control, and applying business logic to best present the data.",
 			"imageLinks": [
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790000/google-square_esxkr2.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699933106/google-books-landing_q2hqup.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699933124/google-books-results_mnuaau.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699933129/google-books-modal_ml4pyg.png"
@@ -191,6 +196,7 @@
 			"dateFinished": "2023-10-23",
 			"description": "Minesweeper as a Java application is a project built as part of my participation during the _nology bootcamp. Were given about 10 days to recreate Microsoft's legendary game to be run in a terminal. The purpose of this project was to help us practice our skills with Java which we had recently learnt.",
 			"imageLinks": [
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790000/morse-square_a0gi3x.png",
 				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699942809/morse-code_gw5ewl.png"
 			],
 			"projectType": "solo",
