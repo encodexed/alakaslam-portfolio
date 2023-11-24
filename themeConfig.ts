@@ -2,6 +2,11 @@ import { ThemeConfig } from "tailwindcss/types/config";
 
 const themeConfig: Partial<ThemeConfig> = {
 	extend: {
+		screens: {
+			xxxs: "320px",
+			xxs: "375px",
+			xs: "425px",
+		},
 		colors: {
 			brand: {
 				card: "#1c202d",
