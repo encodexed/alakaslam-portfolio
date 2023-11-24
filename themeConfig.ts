@@ -4,13 +4,7 @@ const themeConfig: Partial<ThemeConfig> = {
 	extend: {
 		colors: {
 			brand: {
-				body: "#edf2f4",
 				card: "#1c202d",
-				heading: "#75a7ff",
-				lightAccent: "#ef233c",
-				accent: "#d90429",
-				lightBackground: "#8d99ae",
-				background: "#151721",
 				sub: "#d7dbdd",
 			},
 			spectrum: {
@@ -22,6 +16,14 @@ const themeConfig: Partial<ThemeConfig> = {
 				6: "#a0c4ff",
 				7: "#bdb2ff",
 				0: "#ffc6ff",
+			},
+			palette: {
+				offwhite: "#edf2f4",
+				pink: "#fb3298",
+				mint: "#4ee5b6",
+				yellow: "#fbca00",
+				blue: "#01a2e9",
+				background: "#151721",
 			},
 		},
 	},
