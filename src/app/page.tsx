@@ -82,12 +82,6 @@ const page = () => {
 										alakaslam (Discord)
 									</Link>
 								</li>
-								<li className='text-spectrum-5'>
-									<span className='text-white'>
-										<AlternateEmail />
-									</span>{" "}
-									robbiegollan@gmail.com
-								</li>
 							</ul>
 						</div>
 					</div>

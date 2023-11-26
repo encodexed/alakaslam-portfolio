@@ -51,11 +51,19 @@ const ProjectsPage = () => {
 			<Header />
 			<ContentWrapper>
 				<section className='text-palette-offwhite'>
-					<Heading element='h1' classes='text-center py-4'>
-						My Projects
-					</Heading>
+					<div className='text-center py-4'>
+						<Heading element='h1' classes='mb-2'>
+							My Projects
+						</Heading>
+						<p className='text-sm text-brand-sub'>
+							My various projects, mostly solo, which I have completed over the
+							years. Full details of each project can be found on the linked
+							Github repositories, and some projects will be hosted for you to
+							try out immediately.
+						</p>
+					</div>
+
 					<FeaturedProjects projects={featuredProjects} />
-					{/* <UnfeaturedProjects projects={unfeaturedProjects} /> */}
 				</section>
 			</ContentWrapper>
 		</>

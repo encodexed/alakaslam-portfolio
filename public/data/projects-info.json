@@ -22,7 +22,7 @@
 					"icon": "React"
 				}
 			],
-			"isFeature": false,
+			"isFeature": true,
 			"dateStarted": "2023-03-26",
 			"dateFinished": "2023-04-19",
 			"description": "The Elder Scrolls Online (ESO) Alchemy Assistant app is a tool for people who play ESO. It aims to emulate the alchemy crafting system present in the game but as a calculator to help players craft potions. In the game, the mechanics and the UI can often be confusing, and depending on the player's progress in the game, ingredients may not display their full range of effects and capabilities. This app then demystifies the process and helps players explore and experiment with different combinations of ingredients and effects.",
