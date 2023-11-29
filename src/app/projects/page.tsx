@@ -55,7 +55,7 @@ const ProjectsPage = () => {
 						<Heading element='h1' classes='mb-2'>
 							My Projects
 						</Heading>
-						<p className='text-sm text-brand-sub'>
+						<p className='text-sm text-brand-sub text-center max-w-lg mx-auto'>
 							My various projects, mostly solo, which I have completed over the
 							years. Full details of each project can be found on the linked
 							Github repositories, and some projects will be hosted for you to

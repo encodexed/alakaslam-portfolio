@@ -12,15 +12,12 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 	return (
 		<div id='timelineEvent' className='flex'>
 			<div
-				className={`pr-4 pt-1 border-r border-${colorClass} text-sm min-w-[80px]`}
+				className={`pr-4 pt-1 border-r border-${colorClass} text-${colorClass} text-sm min-w-[80px]`}
 			>
 				{date}
 			</div>
 			<div className='pl-4 mb-8'>
 				<h5 className={`text-lg font-bold text-${colorClass}`}>{title}</h5>
-				{/* <Heading element='h5' classes={colorClass}>
-					{title}
-				</Heading> */}
 				<p className='text-sm mb-2'>{body}</p>
 				<div className='flex items-center justify-start gap-2'>
 					{github && (
@@ -29,7 +26,9 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
 							/>{" "}
-							<span className={`text-${colorClass} font-bold`}>Github</span>
+							<span className={`text-${colorClass} font-bold hover:underline`}>
+								Github
+							</span>
 						</Link>
 					)}
 					{live && (
@@ -38,7 +37,9 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
 							/>{" "}
-							<span className={`text-${colorClass} font-bold`}>Live Site</span>
+							<span className={`text-${colorClass} font-bold hover:underline`}>
+								Live Site
+							</span>
 						</Link>
 					)}
 				</div>
