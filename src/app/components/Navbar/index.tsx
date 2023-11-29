@@ -4,7 +4,7 @@ import Link from "next/link";
 import NavDropdown from "../NavDropdown";
 
 const Navbar = () => {
-	const navLinksStyle = "font-bold cursor-pointer no-underline";
+	const navLinksStyle = "font-bold cursor-pointer no-underline hover:underline";
 
 	return (
 		<nav className='text-brand-body flex justify-between w-full max-w-6xl mx-2 sm:mx-8 md:mx-20 flex-grow sm:flex-auto'>
@@ -16,7 +16,7 @@ const Navbar = () => {
 						width={48}
 						height={48}
 					/>
-					<p className='font-bold m-0 ml-2'>Robbie Gollan</p>
+					<p className='font-bold m-0 ml-2 hover:underline'>Robbie Gollan</p>
 				</div>
 			</Link>
 			<div className='w-fit sm:w-1/2 justify-between items-center max-w-sm flex'>

@@ -29,7 +29,9 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
 							/>{" "}
-							<span className={`text-${colorClass} font-bold`}>Github</span>
+							<span className={`text-${colorClass} font-bold hover:underline`}>
+								Github
+							</span>
 						</Link>
 					)}
 					{live && (
@@ -38,7 +40,9 @@ const TimelineEvent = ({ data }: { data: EventData }) => {
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
 							/>{" "}
-							<span className={`text-${colorClass} font-bold`}>Live Site</span>
+							<span className={`text-${colorClass} font-bold hover:underline`}>
+								Live Site
+							</span>
 						</Link>
 					)}
 				</div>

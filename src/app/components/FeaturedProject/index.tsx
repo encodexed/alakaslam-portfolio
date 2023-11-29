@@ -27,7 +27,9 @@ const FeaturedProject = ({ project }: { project: ProjectsData }) => {
 								fontSize='small'
 								sx={{ position: "relative", top: "-2px" }}
 							/>{" "}
-							<span className='text-palette-mint font-bold'>Github</span>
+							<span className='text-palette-mint font-bold hover:underline hover:text-palette-mintHover'>
+								Github
+							</span>
 						</Link>
 						{liveLink && (
 							<Link className='text-sm' href={liveLink} target='_blank'>
@@ -35,7 +37,9 @@ const FeaturedProject = ({ project }: { project: ProjectsData }) => {
 									fontSize='small'
 									sx={{ position: "relative", top: "-2px" }}
 								/>{" "}
-								<span className='text-palette-mint font-bold'>Live Site</span>
+								<span className='text-palette-mint font-bold hover:underline hover:text-palette-mintHover'>
+									Live Site
+								</span>
 							</Link>
 						)}
 					</div>

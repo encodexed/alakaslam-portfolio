@@ -4,14 +4,6 @@ import Image from "next/image";
 import Header from "./components/Header";
 import ContentWrapper from "./containers/ContentWrapper";
 import Me from "../../public/images/me_square.jpg";
-import {
-	AlternateEmail,
-	GitHub,
-	LinkedIn,
-	SportsEsports,
-	Telegram,
-} from "@mui/icons-material";
-import Link from "next/link";
 import HTML from "../../public/images/skills-icons/html5.svg";
 import CSS from "../../public/images/skills-icons/css3.svg";
 import JS from "../../public/images/skills-icons/javascript.svg";
@@ -27,6 +19,7 @@ import MySQL from "../../public/images/skills-icons/mysql.svg";
 import Git from "../../public/images/skills-icons/git.svg";
 import SkillIcon from "./components/SkillIcon";
 import Heading from "./components/Heading";
+import ContactsLinkList from "./components/ContactsLinkList";
 
 const page = () => {
 	return (
@@ -49,40 +42,7 @@ const page = () => {
 							</ul>
 						</div>
 						<div className='flex justify-center sm:justify-start'>
-							<ul className='flex flex-wrap sm:flex-col gap-2 justify-center'>
-								<li className='text-spectrum-2'>
-									<Link href='https://github.com/encodexed'>
-										<span className='text-white'>
-											<GitHub />
-										</span>{" "}
-										encodexed
-									</Link>
-								</li>
-								<li className='text-spectrum-4'>
-									<Link href='https://www.linkedin.com/in/robbie-gollan-b05684261/'>
-										<span className='text-white'>
-											<LinkedIn />
-										</span>{" "}
-										Robbie Gollan
-									</Link>
-								</li>
-								<li className='text-spectrum-6'>
-									<Link href='https://steamcommunity.com/id/alakaslam'>
-										<span className='text-white'>
-											<SportsEsports />
-										</span>{" "}
-										alakaslam (Steam)
-									</Link>
-								</li>
-								<li className='text-spectrum-1'>
-									<Link href='https://discordapp.com/users/352214108663447552'>
-										<span className='text-white'>
-											<Telegram />
-										</span>{" "}
-										alakaslam (Discord)
-									</Link>
-								</li>
-							</ul>
+							<ContactsLinkList />
 						</div>
 					</div>
 

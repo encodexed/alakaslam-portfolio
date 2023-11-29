@@ -11,7 +11,7 @@ const ContactForm = () => {
 
 	return (
 		<form
-			className='flex flex-col gap-2 w-3/5 bg-brand-card p-4 mt-4 text-sm'
+			className='flex flex-col gap-2 w-full xs:w-3/5 bg-brand-card p-4 mt-4 text-sm'
 			onSubmit={handleSubmit}
 		>
 			<div className='flex flex-col gap-1'>
