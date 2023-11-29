@@ -11,7 +11,7 @@ const ContactPage = () => {
 		<>
 			<Header />
 			<ContentWrapper>
-				<section className='text-brand-body text-center max-w-lg mx-auto mb-4 py-4'>
+				<section className='text-center max-w-lg mx-auto mb-4 py-4'>
 					<Heading element='h1' classes='text-center mb-2'>
 						Contact Me
 					</Heading>
