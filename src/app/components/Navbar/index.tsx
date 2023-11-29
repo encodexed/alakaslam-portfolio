@@ -2,6 +2,7 @@ import Image from "next/image";
 import AlakaslamLogo from "../../../../public/images/icon.png";
 import Link from "next/link";
 import NavDropdown from "../NavDropdown";
+import Heading from "../Heading";
 
 const Navbar = () => {
 	const navLinksStyle = "font-bold cursor-pointer no-underline hover:underline";
@@ -16,7 +17,10 @@ const Navbar = () => {
 						width={48}
 						height={48}
 					/>
-					<p className='font-bold m-0 ml-2 hover:underline'>Robbie Gollan</p>
+					{/* <p className='font-bold m-0 ml-2 hover:underline'>Robbie Gollan</p> */}
+					<Heading element='h4' classes='text-white hover:underline'>
+						Robbie Gollan
+					</Heading>
 				</div>
 			</Link>
 			<div className='w-fit sm:w-1/2 justify-between items-center max-w-sm flex'>

@@ -31,7 +31,10 @@ const page = () => {
 						<div className='m-auto w-2/3 sm:w-full'>
 							<Image src={Me} alt='A picture of me' />
 						</div>
-						<Heading element='h1' classes='text-center sm:text-left'>
+						<Heading
+							element='h1'
+							classes='text-center sm:text-left md:text-4xl lg:text-5xl'
+						>
 							Hi, I&apos;m Robbie
 						</Heading>
 						<div className='text-2xl text-brand-sub w-3/4 m-auto sm:w-full'>
