@@ -37,7 +37,7 @@ npm run dev
 
 ## Future Goals
 
-(29/11/23) This project is currently in development. It was deployed on the 24th of November, 2023 and has seen consistent updates to bring it to a semi-decent state. Development is now slowing down in favour of working on a backend Java Spring project. However, I have written my currently slated future plans for the site in the [issues](https://github.com/encodexed/alakaslam-portfolio/issues) section of the github.
+See the [issues](https://github.com/encodexed/alakaslam-portfolio/issues) section for future changes.
 
 ---
 
