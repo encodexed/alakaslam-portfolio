@@ -1,6 +1,19 @@
 {
 	"timeline": [
 		{
+			"id": 18,
+			"date": "Dec, '24",
+			"title": "Shelved the Planetarium for now, onto the next thing!",
+			"body": "The planetarium API featured an authorisation domain, and was able to create data on stars and store them in a MySQL database but with some issues around how Spring was working with relationships. Because my mind likes to run rampant sometimes, the scope was getting a little out of hand so I have put it away for right now so I can focus on something new. Possibly a post-course project or an ESO Alchemy app rewrite that I had been planning for a little while."
+		},
+		{
+			"id": 17,
+			"date": "Nov, '24",
+			"title": "Began work on a Java Springboot project - Planetarium",
+			"body": "With 90% or so of my portfolio complete, I have now moved on to practicing working in Java Springboot. The purpose is to create an API that creates data on fictional stars and planets in the hopes of one day forming the basis of a text-based game, where users explore and colonise an unknown universe.",
+			"github": "https://github.com/encodexed/planetarium-backend"
+		},
+		{
 			"id": 16,
 			"date": "Nov, '24",
 			"title": "Began work on my portfolio rebuild",
