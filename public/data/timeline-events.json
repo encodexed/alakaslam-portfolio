@@ -1,6 +1,14 @@
 {
 	"timeline": [
 		{
+			"id": 19,
+			"date": "Jan, '24",
+			"title": "Finished my ESO app rewrite",
+			"body": "After conquering Covid for the first time and overcoming the exhaustive Christmas period, I was able to work diligently on one of my favourite projects of recent memory. I decided to change up my approach and wrote the logic and UI from scratch, implementing a tile-based UI with a completely different feel. It feels nicer but needs work to match the lovely UX of the old version.",
+			"github": "https://github.com/encodexed/eso-alchemy-assistant",
+			"live": "https://encodexed.github.io/eso-alchemy-assistant/"
+		},
+		{
 			"id": 18,
 			"date": "Dec, '24",
 			"title": "Shelved the Planetarium for now, onto the next thing!",

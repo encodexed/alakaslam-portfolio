@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"title": "ESO Alchemy Assistant",
-			"subtitle": "A potions and ingredients calculator for Elder Scrolls Online",
+			"subtitle": "A rewritten potions and ingredients calculator for Elder Scrolls Online",
 			"techStack": [
 				{
 					"label": "HTML/JSX",
@@ -14,8 +14,8 @@
 					"icon": "Tailwind"
 				},
 				{
-					"label": "JavaScript",
-					"icon": "JavaScript"
+					"label": "TypeScript",
+					"icon": "TypeScript"
 				},
 				{
 					"label": "ReactJS",
@@ -23,16 +23,16 @@
 				}
 			],
 			"isFeature": true,
-			"dateStarted": "2023-03-26",
-			"dateFinished": "2023-04-19",
-			"description": "The Elder Scrolls Online (ESO) Alchemy Assistant app is a tool for people who play ESO. It aims to emulate the alchemy crafting system present in the game but as a calculator to help players craft potions. In the game, the mechanics and the UI can often be confusing, and depending on the player's progress in the game, ingredients may not display their full range of effects and capabilities. This app then demystifies the process and helps players explore and experiment with different combinations of ingredients and effects.",
+			"dateStarted": "2023-12-15",
+			"dateFinished": "2023-01-22",
+			"description": "This is a rewritten project from my passion project of last year, moving from JavaScript to TypeScript and featuring a more streamlined file structure. The app aims to emulate the in-game potions and poisons creation system from Elder Scrolls Online to help console players of the game easily craft concoctions without hassle or confusion.",
 			"imageLinks": [
-				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790001/alchemy-square_edtvay.png",
-				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699920664/Screenshot_2023-11-14_at_11.04.10_am_rpy9yr.png",
-				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699920711/Screenshot_2023-11-14_at_11.04.28_am_qpkeo1.png"
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1706506410/ts-esoaa-2_bw7jsg.png",
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1706506410/ts-esoaa-1_lwjpue.png"
 			],
 			"projectType": "solo",
-			"githubLink": "https://github.com/encodexed/elder-scrolls-alchemy"
+			"githubLink": "https://github.com/encodexed/eso-alchemy-assistant",
+			"liveLink": "https://encodexed.github.io/eso-alchemy-assistant/"
 		},
 		{
 			"id": 2,
@@ -201,6 +201,40 @@
 			],
 			"projectType": "solo",
 			"githubLink": "https://github.com/encodexed/minesweeper"
+		},
+		{
+			"id": 7,
+			"title": "ESO Alchemy Assistant",
+			"subtitle": "A potions and ingredients calculator for Elder Scrolls Online",
+			"techStack": [
+				{
+					"label": "HTML/JSX",
+					"icon": "HTML"
+				},
+				{
+					"label": "TailwindCSS",
+					"icon": "Tailwind"
+				},
+				{
+					"label": "JavaScript",
+					"icon": "JavaScript"
+				},
+				{
+					"label": "ReactJS",
+					"icon": "React"
+				}
+			],
+			"isFeature": true,
+			"dateStarted": "2023-03-26",
+			"dateFinished": "2023-04-19",
+			"description": "The Elder Scrolls Online (ESO) Alchemy Assistant app is a tool for people who play ESO. It aims to emulate the alchemy crafting system present in the game but as a calculator to help players craft potions. In the game, the mechanics and the UI can often be confusing, and depending on the player's progress in the game, ingredients may not display their full range of effects and capabilities. This app then demystifies the process and helps players explore and experiment with different combinations of ingredients and effects.",
+			"imageLinks": [
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1700790001/alchemy-square_edtvay.png",
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699920664/Screenshot_2023-11-14_at_11.04.10_am_rpy9yr.png",
+				"https://res.cloudinary.com/dihtw7wct/image/upload/v1699920711/Screenshot_2023-11-14_at_11.04.28_am_qpkeo1.png"
+			],
+			"projectType": "solo",
+			"githubLink": "https://github.com/encodexed/elder-scrolls-alchemy"
 		}
 	]
 }
