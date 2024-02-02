@@ -1,6 +1,13 @@
 {
 	"timeline": [
 		{
+			"id": 20,
+			"date": "Feb, '24",
+			"title": "Began work on a NPC Manager full-stack app",
+			"body": "Looking to create my first full-stack app since finish my _nology course, I've decided to create my unique take on the post course project \"Employee Creator\" by creating my own TTRPG NPC edition. Dungeon Masters will be able to add and keep track of NPCs they've added to their worlds. It will start simple with a single table, and depending how it goes, eventually branch out into character generation potentially utilising AI, and also an auth system and relational databases for users and their worlds to help keep the experience organised and not public",
+			"github": "https://github.com/encodexed/npc-manager-be"
+		},
+		{
 			"id": 19,
 			"date": "Jan, '24",
 			"title": "Finished my ESO app rewrite",
